@@ -1,6 +1,24 @@
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
+.gravatar {
+  height: 30px;
+  width: auto;
+}
+.navbar {
+  min-height: 38px;
+  background-color: #edd1d8;
+}
+.navbar a.brand { font-size: 18px; }
+.navbar a.brand:hover {
+ color: #edd1d8;
+ background-color: transparent;
+ text-decoration: none;
+}
+footer {
+  background-color: #ebebeb;
+  padding: 30px 0;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
